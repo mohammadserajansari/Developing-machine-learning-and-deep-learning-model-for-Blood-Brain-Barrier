@@ -1,8 +1,8 @@
-# Blood-Brain Barrier Prediction Model
+# Developing machine learning and deep learning model for Blood Brain Barrier
 
 This repository contains a Python script that predicts whether a given molecule can cross the blood-brain barrier (BBB) based on its SMILES representation. The model uses a Random Forest classifier trained on molecular descriptors.
 
-![Blood-Brain Barrier](https://bbbpredict.streamlit.app/)
+[Click here to access the deployed model](https://bbbpredict.streamlit.app/)
 
 ## Overview
 
