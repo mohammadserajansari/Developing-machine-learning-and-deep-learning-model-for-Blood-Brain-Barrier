@@ -20,7 +20,7 @@ To set up the environment and install the required libraries, follow these steps
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/bbb_prediction.git](https://github.com/mohammadserajansari/Developing-machine-learning-and-deep-learning-model-for-Blood-Brain-Barrier.git
+    git clone (https://github.com/mohammadserajansari/Developing-machine-learning-and-deep-learning-model-for-Blood-Brain-Barrier.git
     cd bbb_prediction
     ```
 
