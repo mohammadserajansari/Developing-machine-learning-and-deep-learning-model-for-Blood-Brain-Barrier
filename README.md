@@ -2,7 +2,7 @@
 
 This repository contains a Python script that predicts whether a given molecule can cross the blood-brain barrier (BBB) based on its SMILES representation. The model uses a Random Forest classifier trained on molecular descriptors.
 
-![Blood-Brain Barrier](https://example.com/path-to-your-image.jpg)
+![Blood-Brain Barrier](https://bbbpredict.streamlit.app/)
 
 ## Overview
 
@@ -20,7 +20,7 @@ To set up the environment and install the required libraries, follow these steps
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/bbb_prediction.git
+    git clone https://github.com/yourusername/bbb_prediction.git](https://github.com/mohammadserajansari/Developing-machine-learning-and-deep-learning-model-for-Blood-Brain-Barrier.git
     cd bbb_prediction
     ```
 
@@ -49,16 +49,5 @@ To set up the environment and install the required libraries, follow these steps
 
 3. The script will output whether the molecule is predicted to be able to cross the blood-brain barrier:
     ```bash
-    Input SMILES --> COc1ccc2c(c1)nc([nH]2)S(=O)Cc1ncc(c(c1C)OC)C --> BBB: Positive
+    Enter the SMILES : --> COc1ccc2c(c1)nc([nH]2)S(=O)Cc1ncc(c(c1C)OC)C --> Our assessment concludes that the molecule's BBB Permeability is negative
     ```
-
-## Example
-
-Here is an example of how to use the script in a Python environment:
-
-```python
-from bbb_prediction import predict_bbb
-
-smiles_string = 'COc1ccc2c(c1)nc([nH]2)S(=O)Cc1ncc(c(c1C)OC)C'
-result = predict_bbb(smiles_string)
-print(f"Input SMILES --> {smiles_string} --> BBB: {result}")
