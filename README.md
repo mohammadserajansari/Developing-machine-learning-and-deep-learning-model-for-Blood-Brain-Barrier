@@ -2,7 +2,7 @@
 
 This repository contains a Python script that predicts whether a given molecule can cross the blood-brain barrier (BBB) based on its SMILES representation. The model uses a Random Forest classifier trained on molecular descriptors.
 
-[Click here to access the deployed model](https://bbbpredict.streamlit.app/)
+[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://bbbpredict.streamlit.app/)
 
 ## Overview
 
