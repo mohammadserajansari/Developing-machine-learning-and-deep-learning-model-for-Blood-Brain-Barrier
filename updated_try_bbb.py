@@ -116,7 +116,7 @@ def main():
     else:
         st.write("Enter a SMILES string to predict its BBB Permeability.")
         
-    st.write("_This website belongs to NeuroeCare LAB and was developed by Mohammad Seraj (M.Tech, CB, IIIT-D) under the supervision of Dr. N. Arul Murugan._")
+    st.markdown("_This website belongs to NeuroeCare LAB and was developed by [Mohammad Seraj](https://www.linkedin.com/in/ansariserajmd/) (M.Tech, CB, IIIT-D) under the supervision of [Dr. N. Arul Murugan](https://www.iiitd.ac.in/arulmurugan)._")
 # Run the Streamlit app
 if __name__ == "__main__":
     main()
