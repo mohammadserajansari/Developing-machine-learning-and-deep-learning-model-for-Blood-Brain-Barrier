@@ -9,40 +9,6 @@ import os
 
 
 
-# Custom CSS to add a background image and apply blur effect only to the background
-page_bg_img = '''
-<style>
-.stApp {
-    background: url("https://www.tvscientific.com/hubfs/iStock-1167815724.jpg");
-    background-size: cover;
-    background-position: center;
-    filter: blur(10px);
-}
-
-.stApp::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: inherit;
-    filter: blur(10px);
-    z-index: -1;
-}
-
-.main > div {
-    backdrop-filter: none; /* Remove any additional blur filter */
-    background: rgba(255, 255, 255, 0.8);  /* Light color for readability */
-    border-radius: 10px;
-    padding: 20px;
-    position: relative; /* Ensure content is above the blurred background */
-    z-index: 1;
-}
-</style>
-'''
-
-st.markdown(page_bg_img, unsafe_allow_html=True)
 
 
 
