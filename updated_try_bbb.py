@@ -7,6 +7,30 @@ from mordred import Calculator, descriptors
 from rdkit.Chem import GetMolFrags
 import os
 
+
+
+# Custom CSS to add a background image and apply blur effect
+page_bg_img = '''
+<style>
+.stApp {
+  background-image: url("https://www.tvscientific.com/hubfs/iStock-1167815724.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px);
+}
+
+.main > div {
+  backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.3);  /* Light color for readability */
+  border-radius: 10px;
+  padding: 20px;
+}
+</style>
+'''
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
+
 # Load the model and selected_features from the pickle file
 filename = "rf_acc_86_mc_68_model_try.pkl"
 
