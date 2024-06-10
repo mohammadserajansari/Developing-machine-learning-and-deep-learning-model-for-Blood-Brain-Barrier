@@ -18,16 +18,16 @@ The script performs the following steps:
 
 To set up the environment and install the required libraries, follow these steps:
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/mohammadserajansari/Developing-machine-learning-and-deep-learning-model-for-Blood-Brain-Barrier.git
-    cd Developing-machine-learning-and-deep-learning-model-for-Blood-Brain-Barrier
-    ```
-
-2. Create a virtual environment and activate it:
+1. Create a virtual environment and activate it:
     ```bash
     conda create -n python=3.8
 
+    ```
+
+2. Clone the repository:
+    ```bash
+    git clone https://github.com/mohammadserajansari/Developing-machine-learning-and-deep-learning-model-for-Blood-Brain-Barrier.git
+    cd Developing-machine-learning-and-deep-learning-model-for-Blood-Brain-Barrier
     ```
 
 3. Install the dependencies:
