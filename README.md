@@ -26,28 +26,28 @@ To set up the environment and install the required libraries, follow these steps
 
 2. Create a virtual environment and activate it:
     ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    conda create -n python=3.8
+
     ```
 
 3. Install the dependencies:
     ```bash
     pip install -r requirements.txt
     ```
-
+    
+4. Run Streamlit script
+   ```bash 
+   streamlit run updated_try_bbb.py
+   ```
 ## Usage
 
-1. Define the SMILES string of the molecule you want to predict:
-    ```python
-    smiles_string = 'COc1ccc2c(c1)nc([nH]2)S(=O)Cc1ncc(c(c1C)OC)C'
+1. Run the script to make the prediction:
+    ```bash
+    streamlit run updated_try_bbb.py
     ```
 
-2. Run the script to make the prediction:
-    ```bash
-    python bbb_prediction.py
-    ```
-
-3. The script will output whether the molecule is predicted to be able to cross the blood-brain barrier:
-    ```bash
-    Enter the SMILES : --> COc1ccc2c(c1)nc([nH]2)S(=O)Cc1ncc(c(c1C)OC)C --> Our assessment concludes that the molecule's BBB Permeability is negative
-    ```
+2. The script will output whether the molecule is predicted to be able to cross the blood-brain barrier:
+    On web app interface enter the SMILES & AI model will predict the permeability 
+   ```
+   Enter the SMILES : --> COc1ccc2c(c1)nc([nH]2)S(=O)Cc1ncc(c(c1C)OC)C --> Our assessment concludes that the molecule's BBB Permeability is negative
+   ```
