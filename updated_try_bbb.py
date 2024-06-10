@@ -93,9 +93,9 @@ def main():
     # Set the title and description of the app
     st.subheader("BBB Permeability Prediction Using AI")
 
-    # Add a side option menu with additional information if needed
-    st.sidebar.title("Menu")
-    st.sidebar.write("BBB Permeability.")
+    # # Add a side option menu with additional information if needed
+    # st.sidebar.title("Menu")
+    # st.sidebar.write("BBB Permeability.")
 
     # User input for SMILES
     smiles_input = st.text_input("Enter the SMILES :")
