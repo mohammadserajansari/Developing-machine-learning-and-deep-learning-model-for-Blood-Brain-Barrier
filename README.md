@@ -20,7 +20,11 @@ To set up the environment and install the required libraries, follow these steps
 
 1. Create a virtual environment and activate it:
     ```bash
-    conda create -n python=3.8
+    conda create -n bbb python=3.8
+
+    ```
+    ```bash
+    conda activate bbb
 
     ```
 
