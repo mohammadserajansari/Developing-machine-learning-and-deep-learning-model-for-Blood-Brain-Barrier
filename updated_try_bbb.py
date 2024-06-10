@@ -217,7 +217,6 @@ def calculate_descriptors(smiles):
 
 # Streamlit App
 def main():
-    # Custom CSS to add a background image and apply blur effect only to the background
     page_bg_img = '''
     <style>
     body {
@@ -226,8 +225,15 @@ def main():
         background-position: center;
         filter: blur(10px);
     }
+    .stApp {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px;
+    }
     </style>
     '''
+
     st.markdown(page_bg_img, unsafe_allow_html=True)
     
     st.title("Neurocare-eLAB")
