@@ -84,8 +84,9 @@ def calculate_descriptors(smiles):
 
 # Streamlit App
 def main():
+    st.title("Neurocare-eLAB")
     # Set the title and description of the app
-    st.title("BBB Permeability Prediction Using AI")
+    st.subheader("BBB Permeability Prediction Using AI")
 
     # Add a side option menu with additional information if needed
     st.sidebar.title("Menu")
